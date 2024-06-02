@@ -33,14 +33,15 @@ body{font-family: "Roboto", sans-serif;
 .page-hader-container { display: flex;
                         justify-content: space-between;
                         border-bottom: 1px solid #e7e9fc;
-                }
+               }
 
 .navigation { display: flex;
               justify-content: space-between;
               align-items: center;
-              column-gap: 40px; }
+              column-gap: 40px;}
 
-.page-hader{line-height:1.17;}
+.page-hader{line-height:1.17;
+border-bottom: 1px solid #e7e9fc}
 
 .logo{  margin-right: 76px;
         font-family: "Raleway", sans-serif;
@@ -51,7 +52,7 @@ body{font-family: "Roboto", sans-serif;
         text-transform: uppercase;
         color:#4d5ae5;
        }
-.logo-span{
+.logo-span{margin-right: 40px;
         color:#2e2f42;} 
 
 .menu { display: flex;
