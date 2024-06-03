@@ -102,12 +102,11 @@ border-bottom: 1px solid #e7e9fc}
         /* ----- HERO STYLES ----- */
 
 .hero-section{ max-width: 1440px;
-        margin-left: auto;
-        padding: 188px 0;
+        margin-left: auto;  
         margin-right: auto;
         background: #2e2f42;}
 
- .hero-container { }
+ .hero-container {padding: 188px 0; }
 
 .hero-title{ max-width: 496px;
         margin-bottom: 38px;
@@ -118,7 +117,8 @@ border-bottom: 1px solid #e7e9fc}
         text-align: center;
         color: #ffffff;}
 
-.button{ display: block;
+.button-title{ display: block;
+        cursor: pointer;
         min-width: 169px;
         height: 56px;
         padding: 16px 40px;
@@ -140,6 +140,7 @@ border-bottom: 1px solid #e7e9fc}
  .menu-ben {
         display: flex;
         column-gap: 24px;
+        padding: 120px 0;
  }
 
 .ben-item { width: calc((100% - 72px) / 4);
@@ -150,7 +151,7 @@ border-bottom: 1px solid #e7e9fc}
         flex-direction: column;
         gap: 8px;}
 
-        .ben-title{ 
+        .ben-title{ visibility: hidden;
         width: 264px;
         height: 104px;
         font-weight: 500;
@@ -160,12 +161,15 @@ border-bottom: 1px solid #e7e9fc}
         color: #2e2f42;}
 
 .ben-logo{font-weight: 500;
+        gap: 24px;
+        margin-right: 24px;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;}
 
 .ben-text{line-height: 1.5;
+        margin-right: 0;
         letter-spacing: 0.02em;
         }
 
