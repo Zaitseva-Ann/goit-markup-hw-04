@@ -278,7 +278,8 @@ border-bottom: 1px solid #e7e9fc}
         background: #2e2f42;}
         
 .footer-logo {
-         display: flex;
+        display: inline-block;
+        margin-bottom: 16px;
         max-width: 264px;
         height: 112px;
         display: flex;
