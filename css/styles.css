@@ -24,6 +24,20 @@ body{font-family: "Roboto", sans-serif;
      color:#434455;
      background: #ffffff;}
 
+.visually-hidden {
+             position: absolute;
+             width: 1px;
+             height: 1px;
+             margin: -1px;
+             border: 0;
+             padding: 0;
+
+             white-space: nowrap;
+             clip-path: inset(100%);
+             clip: rect(0 0 0 0);
+             overflow: hidden;
+     }
+
 .hsection-paddings { 
                 padding-top: 120px;
                 padding-bottom: 120px;}
@@ -38,7 +52,7 @@ body{font-family: "Roboto", sans-serif;
 .navigation { display: flex;
               justify-content: space-between;
               align-items: center;
-              column-gap: 40px;}
+              margin-right:40px;}
 
 .page-hader{line-height:1.17;
 border-bottom: 1px solid #e7e9fc}
@@ -60,7 +74,7 @@ border-bottom: 1px solid #e7e9fc}
 
 .menu-link{ display: block;
         padding: 24px 0;
-        margin-right: 40px;
+        gap: 40px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -84,7 +98,7 @@ border-bottom: 1px solid #e7e9fc}
         padding-top: 31px;
         padding-bottom: 32px;}
 
-.address-link{ margin-right: 0;
+.address-link{ margin-right: 40px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -92,7 +106,8 @@ border-bottom: 1px solid #e7e9fc}
         color:#434455;}
 
 .address-link:hover,
-.address-link:focus{font-weight: 400;
+.address-link:focus{ margin-right: 0;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -102,6 +117,7 @@ border-bottom: 1px solid #e7e9fc}
         /* ----- HERO STYLES ----- */
 
 .hero-section{ max-width: 1440px;
+        padding: 188px 0;
         margin-left: auto;  
         margin-right: auto;
         background: #2e2f42;}
@@ -117,7 +133,7 @@ border-bottom: 1px solid #e7e9fc}
         text-align: center;
         color: #ffffff;}
 
-.button-title{ display: block;
+.button-title-btn{ display: block;
         cursor: pointer;
         min-width: 169px;
         height: 56px;
@@ -295,7 +311,8 @@ border-bottom: 1px solid #e7e9fc}
         text-transform: uppercase;
         color:#4d5ae5;}
 
-.logo-span-footer{color: #f4f4fd;}
+.logo-span-footer{ display: inline-block;
+        color: #f4f4fd;}
 
 .text-footer{
         display: flex;
