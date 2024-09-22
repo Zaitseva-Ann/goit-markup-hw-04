@@ -66,15 +66,15 @@ border-bottom: 1px solid #e7e9fc}
         text-transform: uppercase;
         color:#4d5ae5;
        }
-.logo-span{margin-right: 40px;
+.logo-span{gap: 40px;
         color:#2e2f42;} 
 
 .menu { display: flex;
-        margin-right: 40px;}
+        gap: 40px;}
 
 .menu-link{ display: block;
         padding: 24px 0;
-        gap: 40px;
+        margin-right: 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
