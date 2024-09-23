@@ -73,9 +73,8 @@ border-bottom: 1px solid #e7e9fc}
         margin-right: 40px;}
 
 .menu-link{ display: block;
-        gap: 40px;
         padding: 24px 0;
-        margin-right: 0;
+        margin-right: 40px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -134,7 +133,7 @@ border-bottom: 1px solid #e7e9fc}
         text-align: center;
         color: #ffffff;}
 
-.button-title-btn{ display: block;
+.button-title-btn { display: block;
         cursor: pointer;
         min-width: 169px;
         height: 56px;
