@@ -162,12 +162,13 @@ border-bottom: 1px solid #e7e9fc}
 .ben-item { width: calc((100% - 72px) / 4);
         height: 104px;
         display: flex;
+        padding: 120px 0;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
         gap: 8px;}
 
-        .ben-title{ visibility: hidden;
+.ben-title{ visibility: hidden;
         width: 264px;
         height: 104px;
         font-weight: 500;
@@ -177,7 +178,7 @@ border-bottom: 1px solid #e7e9fc}
         color: #2e2f42;}
 
 .ben-logo{font-weight: 500;
-        gap: 24px;
+        margin-right: 24px;
         margin-bottom: 8px;
         margin-right: 24px;
         font-size: 20px;
@@ -199,7 +200,7 @@ border-bottom: 1px solid #e7e9fc}
 
 .reviews{background-color: #F4F4FD;}
 
-.reviews-title{ 
+.reviews-title{ padding: 120px 0 120px;
         margin-top: 168px;
         margin-bottom: 100px;
         font-weight: 700;
@@ -213,6 +214,7 @@ border-bottom: 1px solid #e7e9fc}
 
 .reviews-item{ width:calc((100% - 72px) / 4);
         height: 380px;
+        margin-bottom: 72px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -224,12 +226,14 @@ border-bottom: 1px solid #e7e9fc}
 
 .name-logo{font-weight: 500;
         font-size: 20px;
+        margin-right: 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         background-color: #FFFFFF;
         color: #2e2f42;}
 
  .name-text{font-weight: 400;
+        margin-right: 0;
         font-size: 16px;
         line-height: 1.5;
         background-color: #FFFFFF;
