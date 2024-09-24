@@ -94,11 +94,11 @@ border-bottom: 1px solid #e7e9fc}
 }
 
 .menu-address { display: flex;
-        margin-right: 40px;;
+        gap: 40px;;
         padding-top: 31px;
         padding-bottom: 32px;}
 
-.address-link{ gap: 40px;
+.address-link{ margin-right: 40px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
