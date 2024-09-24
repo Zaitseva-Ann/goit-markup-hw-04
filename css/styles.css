@@ -302,7 +302,8 @@ border-bottom: 1px solid #e7e9fc}
         
         /* ----- FOOTER STYLES ----- */
 
-.footer { padding: 100px 0;
+.footer { display: inline-block;
+        padding: 100px 0;
         display: flex;
         max-width: 1440px;
         height: 312px;
