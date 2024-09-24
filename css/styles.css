@@ -122,7 +122,7 @@ border-bottom: 1px solid #e7e9fc}
         margin-right: auto;
         background: #2e2f42;}
 
- .hero-container {padding: 188px 0; }
+ .hero-content {padding: 188px 0; }
 
 .hero-title{ max-width: 496px;
         margin-bottom: 38px;
@@ -171,7 +171,7 @@ border-bottom: 1px solid #e7e9fc}
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
-        gap: 8px;}
+        gap: 24px;}
 
 .ben-title{ visibility: hidden;
         width: 264px;
@@ -201,13 +201,19 @@ border-bottom: 1px solid #e7e9fc}
 
 .reviews-menu {
         display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px;
         column-gap: 24px;}
 
 .reviews{background-color: #F4F4FD;}
 
 .reviews-title{ padding: 120px 0 120px;
         margin-top: 168px;
-        margin-bottom: 100px;
+        margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -232,6 +238,7 @@ border-bottom: 1px solid #e7e9fc}
 .name-logo{font-weight: 500;
         font-size: 20px;
         margin-right: 24px;
+        row-gap: 48px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         background-color: #FFFFFF;
@@ -249,20 +256,23 @@ border-bottom: 1px solid #e7e9fc}
 
 .portfolio-menu { display: flex;
                   column-gap: 24px;
-                flex-wrap: wrap;}
+                  flex-wrap: wrap;}
 
 .portfolio-item{ 
         width:calc((100% - 48px) / 3);
         height: 420px;
         display: flex;
+        row-gap: 48px;
+        padding-top: 120px;
+        padding-bottom: 120px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         gap: 60px;}
 
-.portfolio-title{
+.portfolio-title{ 
         margin-top: 120px;
-        margin-bottom: 80px;
+        margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
