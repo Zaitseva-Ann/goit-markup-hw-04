@@ -163,6 +163,9 @@ border-bottom: 1px solid #e7e9fc}
         column-gap: 24px;
         padding: 120px 0;}
 
+.menu-ben {gap: 24px;
+        margin-right: 24px}
+
 .ben-item { width: calc((100% - 72px) / 4);
         height: 104px;
         display: flex;
@@ -170,7 +173,7 @@ border-bottom: 1px solid #e7e9fc}
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
-        margin-right: 24px;}
+        margin-right: 0;}
 
 .ben-title{ visibility: hidden;
         width: 264px;
@@ -313,11 +316,10 @@ border-bottom: 1px solid #e7e9fc}
         background: #2e2f42;}
         
 .footer-logo {
-        display: inline-block;
         margin-bottom: 16px;
         max-width: 264px;
         height: 112px;
-        display: flex;
+        display: inline-block;
         align-items: center;
         justify-content: flex-start;
         flex-direction: row;
