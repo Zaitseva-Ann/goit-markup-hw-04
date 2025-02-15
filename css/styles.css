@@ -166,10 +166,6 @@ border-bottom: 1px solid #e7e9fc}
 .menu-ben {gap: 24px;
         margin-right: 24px;
         display: flex;}
-
-.ben-item { width: calc((100% - 72px) / 4);
-        height: 104px;
-        display: flex;
         padding: 120px 0;
         align-items: flex-start;
         justify-content: flex-start;
