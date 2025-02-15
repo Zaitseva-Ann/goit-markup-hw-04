@@ -246,6 +246,7 @@ border-bottom: 1px solid #e7e9fc}
 .name-logo{font-weight: 500;
         font-size: 20px;
         margin-right: 24px;
+        margin-bottom: 8px;
         row-gap: 48px;
         text-align: center;
         line-height: 1.2;
@@ -254,6 +255,7 @@ border-bottom: 1px solid #e7e9fc}
         color: #2e2f42;}
 
  .name-text{font-weight: 400;
+        text-align: center;
         margin-right: 0;
         font-size: 16px;
         line-height: 1.5;
