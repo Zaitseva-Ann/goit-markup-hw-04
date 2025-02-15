@@ -176,11 +176,12 @@ border-bottom: 1px solid #e7e9fc}
         flex-direction: column;
         margin-right: 0;}
 
-.ben-title{ 
-        width: 264px;
+.ben-title{ width: 264px;
         height: 104px;
         font-weight: 500;
         font-size: 20px;
+        display: flex;
+        visibility: hidden;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;}
