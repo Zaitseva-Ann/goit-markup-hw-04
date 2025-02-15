@@ -164,7 +164,8 @@ border-bottom: 1px solid #e7e9fc}
         padding: 120px 0;}
 
 .menu-ben {gap: 24px;
-        margin-right: 24px}
+        margin-right: 24px;
+        display: flex;}
 
 .ben-item { width: calc((100% - 72px) / 4);
         height: 104px;
