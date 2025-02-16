@@ -226,8 +226,6 @@ border-bottom: 1px solid #e7e9fc}
         background-color: #FFFFFF;
         color: #2e2f42;}
 
-.reviews-menu{ gap: 24px;}
-
 .reviews-container{padding: 32px 0;}
 
 .reviews-item{ width: calc((100% - 3 * 24px) / 4);
@@ -242,6 +240,8 @@ border-bottom: 1px solid #e7e9fc}
         border-radius: 0 0 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(15, 18, 62, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background-color: #FFFFFF;}
+
+.logo-container{padding: 32px 0;}
 
 .name-logo{font-weight: 500;
         font-size: 20px;
@@ -267,6 +267,7 @@ border-bottom: 1px solid #e7e9fc}
 
 .portfolio-menu { display: flex;
                   column-gap: 24px;
+                  row-gap: 48px;
                   flex-wrap: wrap;}
 
 .portfolio-item{ 
@@ -275,6 +276,7 @@ border-bottom: 1px solid #e7e9fc}
         display: flex;
         row-gap: 48px;
         padding-top: 120px;
+        margin-bottom: 0;
         padding-bottom: 120px;
         align-items: center;
         justify-content: center;
@@ -292,8 +294,13 @@ border-bottom: 1px solid #e7e9fc}
         text-transform: capitalize;
         color: #2e2f42;}
 
+.logo-container{padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;}
+
 .portfolio-logo { display: flex;
         font-weight: 500;
+        margin-bottom: 8px;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
