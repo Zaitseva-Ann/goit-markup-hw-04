@@ -226,7 +226,7 @@ border-bottom: 1px solid #e7e9fc}
         border-radius: 0 0 4px 4px;
         background-color: #FFFFFF;}
 
-.logo-container {
+.logo-container{
         padding-top: 32px;
         padding-bottom: 32px;}
 
@@ -260,7 +260,7 @@ border-bottom: 1px solid #e7e9fc}
         margin-right: 24px;
         flex-wrap: wrap;}
 
-.reviews-container{ border: 1px solid #E7E9FC;
+.portfolio-container { border: 1px solid #E7E9FC;
         border-top: none;
         padding: 32px 16px;}
 
