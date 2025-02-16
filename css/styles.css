@@ -266,8 +266,8 @@ border-bottom: 1px solid #e7e9fc}
         /* ----- PORTFOLIO STYLES ----- */ 
 
 .portfolio-menu { display: flex;
-                  column-gap: 24px;
                   row-gap: 48px;
+                  column-gap: 24px;
                   gap: 24px;
                   margin-right: 24px;
                   flex-wrap: wrap;}
@@ -286,6 +286,10 @@ border-bottom: 1px solid #e7e9fc}
         margin-right: 0;
         margin-bottom: 48px;
         gap: 60px;}
+
+.portfolio-img{display: block;
+max-width: 100%;
+height: auto;}
 
 .portfolio-title{ 
         margin-bottom: 72px;
