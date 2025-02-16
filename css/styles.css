@@ -230,7 +230,7 @@ border-bottom: 1px solid #e7e9fc}
         padding-top: 32px;
         padding-bottom: 32px;}
 
-.name-logo{font-weight: 500;
+.name-logo {font-weight: 500;
         font-size: 20px;
         margin-right: 24px;
         margin-bottom: 8px;
@@ -260,7 +260,9 @@ border-bottom: 1px solid #e7e9fc}
         margin-right: 24px;
         flex-wrap: wrap;}
 
-.reviews-container{padding: 32px 16px;}
+.reviews-container{ border: 1px solid #E7E9FC;
+        border-top: none;
+        padding: 32px 16px;}
 
 .portfolio-item{ 
         width: calc((100% - 48px) / 3);
