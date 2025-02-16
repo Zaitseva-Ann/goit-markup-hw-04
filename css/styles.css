@@ -295,7 +295,7 @@ border-bottom: 1px solid #e7e9fc}
         text-transform: capitalize;
         color: #2e2f42;}
 
-.logo-container{padding: 32px 16px;
+.logo-container{ padding: 32px 0;
 border: 1px solid #e7e9fc;
 border-top: none;}
 
