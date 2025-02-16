@@ -274,6 +274,8 @@ border-bottom: 1px solid #e7e9fc}
         margin-right: 24px;
         flex-wrap: wrap;}
 
+.reviews-container{padding: 32px 16px;}
+
 .portfolio-item{ 
         width: calc((100% - 48px) / 3);
         height: 420px;
@@ -303,7 +305,7 @@ height: auto;}
         text-transform: capitalize;
         color: #2e2f42;}
 
-.logo-container{ padding: 32px 16px;
+.logo-container{ padding: 32px 0 32px;
 border: 1px solid #e7e9fc;
 border-top: none;}
 
