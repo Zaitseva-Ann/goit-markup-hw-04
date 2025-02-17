@@ -38,8 +38,7 @@ body{font-family: "Roboto", sans-serif;
              overflow: hidden;
      }
 
-.hsection-paddings { 
-                padding-top: 120px;
+.hsection-paddings { padding-top: 120px;
                 padding-bottom: 120px;}
 
       /* ----- HEADER STYLES ----- */
@@ -51,8 +50,7 @@ body{font-family: "Roboto", sans-serif;
 
 .navigation { display: flex;
               justify-content: space-between;
-              align-items: center;
-              margin-right:40px;}
+              align-items: center;}
 
 .page-hader{line-height:1.17;
 border-bottom: 1px solid #e7e9fc}
@@ -74,7 +72,6 @@ border-bottom: 1px solid #e7e9fc}
 
 .menu-link{ display: block;
         padding: 24px 0;
-        margin-right: 40px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -90,8 +87,7 @@ border-bottom: 1px solid #e7e9fc}
         letter-spacing: 0.02em;
         color:#404BBF;}
 
-.address{font-style: normal;
-}
+.address{font-style: normal;}
 
 .menu-address { display: flex;
         gap: 40px;;
@@ -116,13 +112,8 @@ border-bottom: 1px solid #e7e9fc}
 
         /* ----- HERO STYLES ----- */
 
-.hero-section{ max-width: 1440px;
-        padding: 188px 0;
-        margin-left: auto;  
-        margin-right: auto;
+.hero-section{ padding: 188px 0;
         background: #2e2f42;}
-
- .hero-container{padding: 188px 0;}
 
 .hero-title{ max-width: 496px;
         margin-bottom: 38px;
@@ -158,23 +149,16 @@ border-bottom: 1px solid #e7e9fc}
 
         /* ----- BENEFITS STYLES ----- */
 
- .section-paddings{
-        display: flex;
-        column-gap: 24px;
+.section-paddings{
         padding: 120px 0;}
 
 .menu-ben {gap: 24px;
-        margin-right: 24px;
         display: flex;}
 
 .ben-item { width: calc((100% - 72px) / 4);
-        height: 104px;
-        display: flex;
-        padding: 120px 0;
         align-items: flex-start;
         justify-content: flex-start;
-        flex-direction: column;
-        margin-right: 0;}
+        flex-direction: column;}
 
 .visually-hidden { position: absolute;
         width: 1px;
@@ -186,9 +170,7 @@ border-bottom: 1px solid #e7e9fc}
         visibility: hidden;}
 
 .ben-logo{font-weight: 500;
-        margin-right: 24px;
         margin-bottom: 8px;
-        margin-right: 24px;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -208,11 +190,9 @@ border-bottom: 1px solid #e7e9fc}
         gap: 24px;
         margin: 0;}
 
-.reviews{background-color: #F4F4FD;}
+.reviews{ background-color: #F4F4FD;}
 
-.reviews-title{ padding: 120px 0 120px;
-        margin-top: 168px;
-        margin-bottom: 72px;
+.reviews-title{ margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -232,7 +212,6 @@ border-bottom: 1px solid #e7e9fc}
 
 .name-logo {font-weight: 500;
         font-size: 20px;
-        margin-right: 24px;
         margin-bottom: 8px;
         row-gap: 48px;
         text-align: center;
@@ -241,7 +220,7 @@ border-bottom: 1px solid #e7e9fc}
         background-color: #FFFFFF;
         color: #2e2f42;}
 
- .name-text{font-weight: 400;
+.name-text{font-weight: 400;
         text-align: center;
         margin-right: 0;
         font-size: 16px;
@@ -253,11 +232,7 @@ border-bottom: 1px solid #e7e9fc}
         /* ----- PORTFOLIO STYLES ----- */ 
 
 .portfolio-menu { display: flex;
-        column-gap: 24px;
-        gap: 24px;
-        row-gap: 48px;
-        margin-bottom: 48px;
-        margin-right: 24px;
+        gap: 48px 24px;
         flex-wrap: wrap;}
 
 .portfolio-container { border: 1px solid #E7E9FC;
@@ -266,17 +241,9 @@ border-bottom: 1px solid #e7e9fc}
 
 .portfolio-item{ 
         width: calc((100% - 48px) / 3);
-        height: 420px;
-        display: flex;
-        row-gap: 48px;
-        padding-top: 120px;
-        margin-bottom: 48px;
-        padding-bottom: 120px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-right: 0;
-        margin-bottom: 48px;
         gap: 60px;}
 
 .portfolio-img{display: block;
@@ -293,26 +260,18 @@ height: auto;}
         text-transform: capitalize;
         color: #2e2f42;}
 
-.logo-container{
-border: 1px solid #e7e9fc;
+.logo-container{ border: 1px solid #e7e9fc;
 border-top: none;
 padding: 32px 16px;}
 
-.portfolio-logo { display: flex;
-        font-weight: 500;
+.portfolio-logo { font-weight: 500;
         margin-bottom: 8px;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;}
 
-.portfolio-text{ display: flex;
-        margin-bottom: 35px;
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-bottom: 32px;
-        padding-top: 32px;
-        font-weight: 400;
+.portfolio-text{ font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
@@ -320,21 +279,14 @@ padding: 32px 16px;}
         
         /* ----- FOOTER STYLES ----- */
 
-.footer { display: inline-block;
-        padding: 100px 0;
+.footer { padding: 100px 0;
         display: flex;
-        max-width: 1440px;
-        height: 312px;
-        margin-left: auto;
-        margin-right: auto;
         color: #4d5ae5;
         line-height: 1.17;
         background: #2e2f42;}
         
 .footer-logo {
         margin-bottom: 16px;
-        max-width: 264px;
-        height: 112px;
         display: inline-block;
         align-items: center;
         justify-content: flex-start;
