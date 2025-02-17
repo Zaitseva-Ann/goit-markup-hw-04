@@ -303,10 +303,7 @@ padding: 32px 16px;}
 .logo-span-footer{ display: inline-block;
         color: #f4f4fd;}
 
-.text-footer{
-        display: flex;
-        max-width: 264px;
-        height: 112px;
+.text-footer{ max-width: 264px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;}
