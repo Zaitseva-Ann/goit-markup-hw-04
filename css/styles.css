@@ -168,8 +168,8 @@ border-bottom: 1px solid #e7e9fc}
         background-color:#F4F4FD;
 }
 
-.page-logo-icon{
-        align-items: center;
+.page-logo-icon{ margin-left: 100px;
+        margin-top: 24px;
 }
 
 .visually-hidden { position: absolute;
