@@ -161,6 +161,17 @@ border-bottom: 1px solid #e7e9fc}
         justify-content: flex-start;
         flex-direction: column;}
 
+.sprite-container{ 
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        background-color:#F4F4FD;
+}
+
+.page-logo-icon{ 
+        align-items: center;
+}
+
 .visually-hidden { position: absolute;
         width: 1px;
         height: 1px;
