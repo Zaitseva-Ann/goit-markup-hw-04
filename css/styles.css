@@ -256,6 +256,10 @@ stroke: #4d5ae5;}
         background-color: #4d5ae5;
         line-height: 0;}
 
+.social-list-link:hover,
+.social-list-link:focus { background-color: #31D0AA;
+}
+
 
         /* ----- PORTFOLIO STYLES ----- */ 
 
