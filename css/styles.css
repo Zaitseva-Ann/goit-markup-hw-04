@@ -246,7 +246,13 @@ gap:24px;}
 .page-logo-icon{ fill: none;
 stroke: #4d5ae5;}
 
-.social-list-link { display: block;
+.social-list-link { display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #4d5ae5;
         line-height: 0;}
 
 
