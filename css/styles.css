@@ -168,7 +168,7 @@ border-bottom: 1px solid #e7e9fc}
         background-color:#F4F4FD;
 }
 
-.page-logo-icon{ margin-left: 100px;
+.page-logo-sprite{ margin-left: 100px;
         margin-top: 24px;
 }
 
@@ -239,6 +239,15 @@ border-bottom: 1px solid #e7e9fc}
         line-height: 1.5;
         background-color: #FFFFFF;
         letter-spacing: 0.02em;}
+
+.social-list{ display: flex;
+gap:24px;}
+
+.page-logo-icon{ fill: none;
+stroke: #4d5ae5;}
+
+.social-list-link { display: block;
+        line-height: 0;}
 
 
         /* ----- PORTFOLIO STYLES ----- */ 
