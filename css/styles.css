@@ -281,13 +281,15 @@ stroke: #4d5ae5;}
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 60px;}
+        gap: 60px;
+        overflow: hidden;
+}
 
 .portfolio-img{display: block;
 max-width: 100%;
 height: auto;}
 
-.portfolio-overlay{ display: none;
+.portfolio-overlay{ 
         position: absolute;
         top: 0;
         left: 0;
@@ -297,10 +299,11 @@ height: auto;}
         padding-left: 32px;
         overflow: auto;
         background-color: #4D5AE5;
+        transform: translateY(100%);
 }
 
 .portfolio-item:hover .portfolio-overlay{
-        display: block;
+transform: translateY(0);
 }
 
 .portfolio-title{ 
