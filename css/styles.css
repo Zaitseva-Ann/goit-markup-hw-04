@@ -409,7 +409,6 @@ padding: 32px 16px;}
         height: 40px;
         border-radius: 50%;
         background-color: #4d5ae5;
-        line-height: 0;
-        margin-bottom: 32px;
-        margin-bottom: 16px;
+        margin-bottom: auto;
+        margin-bottom: auto;
         flex-direction: row;}        
